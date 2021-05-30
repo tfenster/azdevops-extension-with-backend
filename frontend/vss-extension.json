@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "id": "tfenster-example-dev",
+  "id": "<put-your-publisher-here>-example-dev",
   "public": false,
   "baseUri": "https://localhost:3000",
   "version": "0.0.1",
