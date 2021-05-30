@@ -1,0 +1,12 @@
+node_modules/
+typings/
+dist/
+out/
+
+# macOS
+.DS_Store
+*.vsix
+.env
+
+bin/
+obj/

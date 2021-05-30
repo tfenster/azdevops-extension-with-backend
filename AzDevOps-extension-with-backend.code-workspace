@@ -1,0 +1,17 @@
+{
+    "folders": [
+        {
+            "path": "backend",
+            "name": "Backend service"
+        },
+        {
+            "path": "frontend",
+            "name": "Frontend extension"
+        },
+        {
+            "path": ".devcontainer",
+            "name": "Devcontainer config"
+        }
+    ],
+    "settings": {}
+}

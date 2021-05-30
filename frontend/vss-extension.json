@@ -1,0 +1,53 @@
+{
+  "manifestVersion": 1,
+  "id": "tfenster-example-dev",
+  "public": false,
+  "baseUri": "https://localhost:3000",
+  "version": "0.0.1",
+  "name": "Dev Extension",
+  "description": "Extension for development tests",
+  "publisher": "<put-your-publisher-here>",
+  "demands": [
+    "api-version/3.0"
+  ],
+  "categories": [
+    "Azure Boards"
+  ],
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "content": {
+    "details": {
+      "path": "README.md"
+    }
+  },
+  "icons": {
+    "default": "img/world.png"
+  },
+  "files": [
+    {
+      "path": "dist",
+      "addressable": true
+    },
+    {
+      "path": "img",
+      "addressable": true
+    }
+  ],
+  "contributions": [
+    {
+      "id": "example-work-item-form-page",
+      "type": "ms.vss-work-web.work-item-form-page",
+      "description": "Example page",
+      "targets": [
+        "ms.vss-work-web.work-item-form"
+      ],
+      "properties": {
+        "name": "Example",
+        "uri": "dist/example/example.html"
+      }
+    }
+  ]
+}
