@@ -8,13 +8,6 @@
             "cwd": "${workspaceFolder}"
         },
         {
-            "type": "node-terminal",
-            "name": "Publish extension in dev mode",
-            "request": "launch",
-            "command": "npm run publish",
-            "cwd": "${workspaceFolder}"
-        },
-        {
             "name": "Start Firefox",
             "type": "firefox",
             "request": "launch",
