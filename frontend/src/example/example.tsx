@@ -80,10 +80,10 @@ export class WorkItemFormGroupComponent extends React.Component<{}, WorkItemForm
                 <TextField
                     value={this.state.name}
                     onChange={(e, newValue) => (this.setState({ name: newValue }))}
-                    placeholder="Search keyword"
+                    placeholder="Enter your name"
                     width={TextFieldWidth.standard} />
                 <Button
-                    text="Click me to change title!"
+                    text="Ask the backend for a greeting"
                     primary={true}
                     onClick={() => this.onClick()}
                 />
